@@ -11,4 +11,4 @@ int hIndex(int *citations, int citationsSize) {
     }
     return h;
 }
-//关键在于数组排列后，每个元素只有大于H数，才能满足H指数条件。
+//关键在于数组排列后，每个元素只有大于H数，才能满足H指数条件，直到数组里没有大于H数的元素
